@@ -1,0 +1,10 @@
+If songs.db contains the top 100 songs of one listener from 2018, how would you characterize their audio aura?
+
+I could characterize their audio aura by analyzing the energy, valence, and danceability of their songs.
+
+
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the listener.
+What better ways of calculating this aura would you propose?
+
+A better approach would be to analyze more data, not limiting the analysis to just energy, valence, and danceability.
+By working with a larger dataset, we can generate more accurate predictions.

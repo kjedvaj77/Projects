@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Quote
+{% endblock %}
+
+{% block main %}
+<form action="/quote" method="post">
+    <div class="mb-3">
+        <h2>Request Stock Quote</h2>
+        <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="symbol" placeholder="Symbol" type="text">
+    </div>
+    <button class="btn btn-primary mb-3" type="submit">Look Up</button>
+</form>
+
+{% if symbol %}
+<div>
+    <p>The current price of {{ symbol["name"] }}<strong>({{ symbol["symbol"] }})</strong> is <strong>{{ symbol["price"]|usd }}</strong> per share.</p>
+</div>
+{% endif %}
+{% endblock %}

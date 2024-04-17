@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Top Up
+{% endblock %}
+
+{% block main %}
+<div>
+    <!-- Form for adding money -->
+    <div class="mb-3">
+        <div>
+            <div class="aln">
+                <p>Hello {{ data.username }}</p>
+            </div>
+            <div>
+                <h2>Top Up</h2>
+            </div>
+            <form action="/topup" method="post">
+                <label for="in93">Add money to your account: </label>
+                <input class="form-control mx-auto w-auto mb-3" type="number" id="in93" name="cash" placeholder="Amount">
+                <p>Minimal deposit: 15$</p>
+                <button class="btn btn-primary" type="submit">Top Up</button>
+            </form>
+        </div>
+    </div>
+    <!-- user details -->
+    <div>
+        <div class="">
+            <p><strong>Balance: </strong>{{ data.cash|usd }}</p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
