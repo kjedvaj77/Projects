@@ -1,0 +1,145 @@
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #646a71;
+    }
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-list li {
+    margin: 6px;
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-img {
+    width: 272px;
+    height: 92px;
+}
+
+.main-form {
+    text-align: center;
+    padding: 20px;
+    max-height: 160px;
+    width: 100%;
+}
+
+.google-div {
+    display: flex;
+    min-height: 44px;
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+}
+
+.google-div input {
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    width: 450px;
+}
+
+.buttons input {
+    background-color: #e3e5ec;
+    border: 1px solid #979eb4;
+    border-radius: 4px;
+    color: #2f3237;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.adv-header {
+    color: #d93025;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.adv-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.first-element {
+    float: left;
+    /* display: inline-block; */
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.second-element {
+    float: left;
+    /* display: inline-block; */
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.third-element {
+    float: left;
+    /* display: inline-block; */
+    width: 32%;
+    min-width: 160px;
+    margin: 0 0 8px 1%;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.adv-container input[type="text"] {
+    width: 100%;
+}
+
+.item {
+    margin-top: 20px;
+}
+
+#adv-button {
+    float: right;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 16px;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 8px;
+    background: #8ab4f8;
+    border-color: #8ab4f8;
+    color: #202124;
+}
